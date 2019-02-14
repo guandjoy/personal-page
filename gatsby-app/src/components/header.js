@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
         backgroundSize: "42px 42px",
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
+        backgroundColor: '#fafafa',
         position: 'absolute',
         top: '24px',
         left: '32px',
