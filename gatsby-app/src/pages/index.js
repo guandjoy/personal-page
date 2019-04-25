@@ -29,6 +29,10 @@ const section = css`
   }
 `
 
+const aboutMe = css`
+  background-color: lightgrey;
+`
+
 const getInTouch = css`
   background-color: #100925;
 `
@@ -39,6 +43,10 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className={hero}>
       <h1 className={header}>Hi people</h1>
+    </div>
+    <div className={cx(section, aboutMe)}>
+      <h3>About me</h3>
+      <p>I'm a designer and programmer</p>
     </div>
     <div className={section}>
       <div>
