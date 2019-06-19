@@ -84,7 +84,10 @@ const project = css`
 
 const IndexPage = () => (
   <div>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Yurko Turskiy"
+      keywords={[`designer`, `developer`, `frontend`]}
+    />
     <header className={header}>
       <Logo />
     </header>
