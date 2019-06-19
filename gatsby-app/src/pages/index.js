@@ -86,7 +86,7 @@ const IndexPage = () => (
   <div>
     <SEO
       title="Yurko Turskiy"
-      keywords={[`designer`, `developer`, `frontend`]}
+      keywords={[`designer`, `developer`, `programmer`, `frontend`]}
     />
     <header className={header}>
       <Logo />
