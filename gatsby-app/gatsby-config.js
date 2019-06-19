@@ -2,11 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Designer & Developer`,
     siteUrl: `https://yurko.gq/`,
-    description: `into Visual Arts, Python, ReactJS, GraphQL, and Apollo Client.`,
+    description: `into Visual Arts, Python, ReactJS, and GraphQL.`,
     author: `@guandjoy`
   },
   plugins: [
-    "gatsby-plugin-linaria",
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

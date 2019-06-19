@@ -1,30 +1,20 @@
 import React from "react";
-import { css } from "linaria";
-
-const wrapper = css`
-  background-color: white;
-  margin: 24px 16px 24px 24px;
-`;
 
 const Logo = props => (
-  <div className={wrapper}>
+  <div className="logo">
     <svg
+      width="88"
+      height="88"
+      viewBox="0 0 88 88"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 300 333.35"
-      width="48"
-      height="48"
     >
-      <defs />
-      <g id="Layer_2" data-name="Layer 2">
-        <g id="Layer_3" data-name="Layer 3">
-          <rect className="cls-1" y="133.35" width="100" height="100" />
-          <rect className="cls-1" x="100" y="233.35" width="100" height="100" />
-          <polygon
-            className="cls-1"
-            points="241.42 133.34 191.9 83.83 263.93 11.8 261.1 8.97 189.07 81 108.08 0 37.37 70.71 200 233.34 200 233.34 300 233.34 300 133.34 241.42 133.34"
-          />
-        </g>
-      </g>
+      <path d="M32 36H10V58H32V36Z" fill="#1A1A1A" />
+      <path d="M54 58H32V80H54V58Z" fill="#1A1A1A" />
+      <path
+        d="M63.1999 36L52.1999 25.2L67.9999 9.19998L67.3999 8.59998L51.5999 24.4L33.7999 6.59998L18.2 22.2L53.9999 58H75.9999V36H63.1999Z"
+        fill="#1A1A1A"
+      />
     </svg>
   </div>
 );
