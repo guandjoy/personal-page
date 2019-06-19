@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Designer & Developer`,
+    siteUrl: `https://yurko.gq/`,
     description: `into Visual Arts, Python, ReactJS, GraphQL, and Apollo Client.`,
     author: `@guandjoy`
   },
