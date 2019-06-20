@@ -12,6 +12,8 @@ body {
 
 .logo {
   margin: 24px 0 16px 24px;
+  width: 88px;
+  height: 88px;
 }
 
 .header .right-column {
@@ -19,9 +21,8 @@ body {
 }
 
 .name {
-  padding: 17px 0 0 4px;
+  padding: 14px 0 0 2px;
   margin: 0;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -30,18 +31,17 @@ body {
 }
 
 .title {
-  padding: 1px 0 0 2px;
+  padding: 2px 0 0 0px;
   margin: 0;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 200;
-  font-size: 28px;
-  line-height: 33px;
+  font-size: 30px;
+  line-height: 35px;
   color: #000000;
 }
 
 .social-media {
-  margin: 15px 0 0 4px;
+  margin: 12px 0 0 2px;
 }
 
 .social-media a {
@@ -59,13 +59,12 @@ body {
 }
 
 .content {
-  margin: 136px 0 0 140px;
+  margin: 138px 0 64px 140px;
 }
 
 .rep-name {
   padding: 0;
   margin: 24px 0 0 0;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -77,11 +76,124 @@ body {
 .description {
   padding: 0;
   margin: 6px 0 0 0;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
 
   color: #000000;
+}
+
+@media (max-width: 359px) {
+  /* Extra small */
+  .logo {
+    margin: 14px 0 8px 14px;
+    width: 68px;
+    height: 68px;
+  }
+
+  .header .right-column {
+    margin: 14px 0 0 8px;
+  }
+
+  .name {
+    padding: 10px 0 0 2px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .title {
+    padding: 1px 0 0 0px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .social-media {
+    margin: 6px 0 0 2px;
+    padding: 0;
+  }
+
+  .social-media a {
+    margin: 0 16px 0 0;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .content {
+    margin: 104px 22px 48px 22px;
+  }
+
+  .rep-name {
+    padding: 0;
+    margin: 24px 0 0 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .description {
+    padding: 0;
+    margin: 6px 0 0 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 490px) {
+  /* Extra small */
+  .logo {
+    margin: 18px 0 8px 18px;
+    width: 78px;
+    height: 78px;
+  }
+
+  .header .right-column {
+    margin: 18px 0 0 9px;
+  }
+
+  .name {
+    padding: 14px 0 0 2px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .title {
+    padding: 1px 0 0 0;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .social-media {
+    margin: 8px 0 0 2px;
+    padding: 0;
+  }
+
+  .social-media a {
+    margin: 0 16px 0 0;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .content {
+    margin: 113px 27px 48px 27px;
+  }
+
+  .rep-name {
+    padding: 0;
+    margin: 24px 0 0 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .description {
+    padding: 0;
+    margin: 6px 0 0 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
