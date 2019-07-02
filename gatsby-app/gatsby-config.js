@@ -6,6 +6,18 @@ module.exports = {
     author: `@guandjoy`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: "Roboto",
+            variants: ["100", "300", "400", "700"],
+            subsets: ["latin"]
+          }
+        ]
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
