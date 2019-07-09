@@ -12,7 +12,7 @@ module.exports = {
         fonts: [
           {
             family: "Roboto",
-            variants: ["100", "300", "400", "700"],
+            variants: ["100", "300", "700"],
             subsets: ["latin"]
           }
         ]
