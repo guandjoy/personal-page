@@ -17,7 +17,7 @@ const IndexPage = () => (
         <h6 className="name">Yurko Turskiy</h6>
         <h1 className="title">Designer & Developer</h1>
         <div className="social-media">
-          <a href="https://mobile.twitter.com/guandjoy" target="_blank">
+          <a href="https://twitter.com/guandjoy" target="_blank">
             Twitter
           </a>
           <a href="https://github.com/guandjoy" target="_blank">
