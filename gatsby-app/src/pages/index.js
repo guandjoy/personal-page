@@ -17,35 +17,31 @@ const IndexPage = () => (
         <h6 className="name">Yurko Turskiy</h6>
         <h1 className="title">Designer & Developer</h1>
         <div className="social-media">
-          <a href="https://twitter.com/guandjoy" target="_blank">
-            Twitter
-          </a>
-          <a href="https://github.com/guandjoy" target="_blank">
-            GitHub
-          </a>
-          <a href="https://dribbble.com/Guandjoy" target="_blank">
-            Dribbble
-          </a>
+          <a href="https://twitter.com/guandjoy">Twitter</a>
+          <a href="https://github.com/guandjoy">GitHub</a>
+          <a href="https://dribbble.com/Guandjoy">Dribbble</a>
         </div>
       </div>
     </header>
     <div className="content">
       <div className="projects">
         <div className="project">
-          <h5 className="rep-name">Redfish</h5>
+          <a href="https://github.com/guandjoy/primitivo-svg">
+            <h5 className="rep-name">Primitivo-SVG</h5>
+          </a>
+          <p className="description">SVG library. Create and morph paths.</p>
+        </div>
+        <div className="project">
+          <a href="https://github.com/guandjoy/redfish">
+            <h5 className="rep-name">Redfish</h5>
+          </a>
           <p className="description">Boilerplate web application</p>
         </div>
         <div className="project">
-          <h5 className="rep-name">React-universal-dnd-layout</h5>
-          <p className="description">
-            Drag and drop for whatever layout you want.
-          </p>
-        </div>
-        <div className="project">
-          <h5 className="rep-name">React-SVG-shape-transition</h5>
-          <p className="description">
-            Seamless transition with cool svg effects
-          </p>
+          <a href="https://github.com/guandjoy/react-universal-dnd-layout">
+            <h5 className="rep-name">React-universal-dnd-layout</h5>
+          </a>
+          <p className="description">Drag and drop layout</p>
         </div>
       </div>
     </div>
