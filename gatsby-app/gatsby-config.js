@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Designer & Developer`,
+    title: `Developer & Designer`,
     siteUrl: `https://yurko.gq/`,
     description: `into Visual Arts, Python, ReactJS, and GraphQL.`,
     author: `@guandjoy`
