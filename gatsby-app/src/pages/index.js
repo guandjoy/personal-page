@@ -15,11 +15,11 @@ const IndexPage = () => (
       <Logo />
       <div className="right-column">
         <h6 className="name">Yurko Turskiy</h6>
-        <h1 className="title">Designer & Developer</h1>
+        <h1 className="title">Developer & Designer</h1>
         <div className="social-media">
           <a href="https://twitter.com/guandjoy">Twitter</a>
           <a href="https://github.com/guandjoy">GitHub</a>
-          <a href="https://dribbble.com/Guandjoy">Dribbble</a>
+          <a href="https://www.instagram.com/yurko.turskiy/">Instagram</a>
         </div>
       </div>
     </header>
