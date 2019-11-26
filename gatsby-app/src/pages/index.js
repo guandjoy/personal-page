@@ -26,21 +26,27 @@ const IndexPage = () => (
     <div className="content">
       <div className="projects">
         <div className="project">
-          <a href="https://github.com/guandjoy/primitivo-svg">
-            <h5 className="rep-name">Primitivo-SVG</h5>
-          </a>
+          <h5 className="rep-name">
+            <a href="https://github.com/guandjoy/primitivo-svg">
+              Primitivo-SVG
+            </a>
+          </h5>
+
           <p className="description">SVG library. Create and morph paths.</p>
         </div>
         <div className="project">
-          <a href="https://github.com/guandjoy/redfish">
-            <h5 className="rep-name">Redfish</h5>
-          </a>
+          <h5 className="rep-name">
+            <a href="https://github.com/guandjoy/redfish">Redfish</a>
+          </h5>
+
           <p className="description">Boilerplate web application</p>
         </div>
         <div className="project">
-          <a href="https://github.com/guandjoy/react-universal-dnd-layout">
-            <h5 className="rep-name">React-universal-dnd-layout</h5>
-          </a>
+          <h5 className="rep-name">
+            <a href="https://github.com/guandjoy/react-universal-dnd-layout">
+              React-universal-dnd-layout
+            </a>
+          </h5>
           <p className="description">Drag and drop layout</p>
         </div>
       </div>
