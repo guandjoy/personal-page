@@ -1,7 +1,7 @@
 import React from "react";
 
 const Logo = props => (
-  <div className="logo">
+  <div className="a-logo">
     <svg viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M32 36H10V58H32V36Z" fill="#1A1A1A" />
       <path d="M54 58H32V80H54V58Z" fill="#1A1A1A" />

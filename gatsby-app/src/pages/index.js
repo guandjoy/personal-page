@@ -2,7 +2,7 @@ import React from "react";
 import "../components/styles.css";
 
 import SEO from "../components/seo";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import Hero from "../components/hero/Hero";
 
 const IndexPage = () => (
