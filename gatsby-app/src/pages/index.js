@@ -1,14 +1,15 @@
 import React from "react";
-
 import "../components/styles.css";
 
 import SEO from "../components/seo";
 import Header from "../components/Header";
+import Hero from "../components/hero/Hero";
 
 const IndexPage = () => (
   <div>
     <SEO title="Yurko Turskiy" />
     <Header />
+    <Hero />
     <div className="content">
       <div className="projects">
         <div className="project">
