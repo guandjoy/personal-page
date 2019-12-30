@@ -12,16 +12,6 @@ a:hover {
   color: blue;
 }
 
-.header {
-  display: flex;
-}
-
-.logo {
-  margin: 24px 0 16px 24px;
-  width: 88px;
-  height: 88px;
-}
-
 .header .right-column {
   margin: 24px 0 0 26px;
 }
