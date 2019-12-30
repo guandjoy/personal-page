@@ -10,7 +10,7 @@ function Rudl({}) {
           className="portfolio-iframe"
           title="RUDL-demo"
           src="https://rudl.netlify.com/"
-          // scrolling="no"
+          scrolling="no"
         ></iframe>
         <a href="https://rudl.netlify.com/"></a>
       </div>
