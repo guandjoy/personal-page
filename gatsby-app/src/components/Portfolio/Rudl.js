@@ -1,19 +1,15 @@
 import React from "react";
+import ItemIframeImage from "./ItemIframeImage";
 
 function Rudl({}) {
   return (
-    <div>
+    <div className="o-portfolio__item">
       <h2>RUDL</h2>
-      <div className="o-portfolio__image -iframe -one">
-        <iframe
-          style={{ zIndex: 0 }}
-          className="portfolio-iframe"
-          title="RUDL-demo"
-          src="https://rudl.netlify.com/"
-          scrolling="no"
-        ></iframe>
-        <a href="https://rudl.netlify.com/"></a>
-      </div>
+      <ItemIframeImage
+        title="RUDL-demo"
+        src="https://rudl.netlify.com/"
+        size="one"
+      />
     </div>
   );
 }
