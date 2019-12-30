@@ -20,6 +20,10 @@ module.exports = {
             family: "Roboto",
             variants: ["100", "300", "700"],
             subsets: ["latin"]
+          },
+          {
+            family: "Rubik",
+            variants: ["300", "400", "500", "700", "900"]
           }
         ]
       }
