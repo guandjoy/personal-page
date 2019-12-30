@@ -1,5 +1,4 @@
 import React from "react";
-import Greerings from "./Greetings";
 import SocialButtons from "./SocialButtons/SocialButtons";
 // Styles
 import "./Hero.css";
