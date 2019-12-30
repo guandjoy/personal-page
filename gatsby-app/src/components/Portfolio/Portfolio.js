@@ -1,13 +1,14 @@
 import React from "react";
 import Rudl from "./Rudl";
 import Primitivo from "./Primitivo";
+import Redfish from "./Redfish";
 
 function Portfolio(props) {
   return (
     <div className="o-portfolio__wrapper">
       <Rudl />
       <Primitivo />
-      <h2>Redfish</h2>
+      <Redfish />
     </div>
   );
 }
