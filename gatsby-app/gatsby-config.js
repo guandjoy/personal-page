@@ -5,10 +5,12 @@ require("dotenv").config({
 const sourceS3 = {
   resolve: "gatsby-source-s3-asset",
   options: {
-    bucketName: "yurko-personal-page"
+    bucketName: "yurko-personal-page",
     // domain: null, // [optional] Not necessary to define for AWS S3; defaults to `s3.amazonaws.com`
     // protocol: "https" // [optional] Default to `https`.
     // publicDomain: null // [optional] Use this domain to construct the public URL for the assets
+    accessKeyId: `${process.env.accessKeyId}`,
+    secretAccessKey: `${process.env.secretAccessKey}`
   }
 };
 
