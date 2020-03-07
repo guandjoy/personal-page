@@ -14,17 +14,17 @@ function SocialButtons() {
   return (
     <div className="social-buttons__wrapper">
       <Icon Component={TwitterIcon} url="https://twitter.com/guandjoy/" />
-      <Icon Component={GitHubIcon} url="https://github.com/guandjoy" />
       <Icon
         Component={InstagramIcon}
         url="https://instagram.com/yurko.turskiy/"
       />
-      <Icon
-        Component={FbIcon}
-        id="fb-icon"
-        url="https://facebook.com/guandjoy/"
-      />
-      <Icon Component={RedditIcon} url="https://reddit.com/user/Yurko_III/" />
+      <Icon Component={GitHubIcon} url="https://github.com/guandjoy" />
+      {/* <Icon */}
+      {/*   Component={FbIcon} */}
+      {/*   id="fb-icon" */}
+      {/*   url="https://facebook.com/guandjoy/" */}
+      {/* /> */}
+      {/* <Icon Component={RedditIcon} url="https://reddit.com/user/Yurko_III/" /> */}
     </div>
   );
 }

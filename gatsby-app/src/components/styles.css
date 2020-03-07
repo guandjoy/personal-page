@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  --icons-color: #6c5443;
+  --icons-color-hover: #38312b;
 }
 
 a {

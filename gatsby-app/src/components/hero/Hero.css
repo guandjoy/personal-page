@@ -1,5 +1,95 @@
+body {
+  font-family: Roboto;
+}
+
+.a-logo__wrapper {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.a-logo {
+  display: block;
+  fill: #6c5443;
+  width: 36px;
+}
+
+.a-logo__label {
+  margin: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #6c5443;
+  text-align: center;
+}
+
 .o-hero__wrapper {
-  outline: 1px solid coral;
+  overflow: hidden;
   height: 100vh;
+  /* width: 100vw; */
   top: 0;
+  background: linear-gradient(#fe915b 50%, #ffca86 50%);
+}
+
+h1 {
+  z-index: 2;
+  position: absolute;
+  top: 182px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6c5443;
+}
+
+h2 {
+  z-index: 2;
+  position: absolute;
+  top: 208px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #6c5443;
+}
+
+.a-video__wrapper {
+  position: absolute;
+  overflow: hidden;
+  height: 900px;
+  max-height: 900px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  /* outline: 1px solid red; */
+  background: url(https://yurko-personal-page.s3.eu-central-1.amazonaws.com/BgPattern.png);
+  background-size: 82px 900px;
+  background-repeat: repeat-x;
+}
+
+#hero-video {
+  position: absolute;
+  width: 960px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: auto; */
 }
