@@ -1,9 +1,9 @@
 import React from "react";
 
 const Logo = props => (
-  <div className="a-logo__wrapper">
+  <div className="m-elements__logo">
     <svg
-      className="a-logo"
+      className="a-logo__icon"
       viewBox="0 0 88 88"
       xmlns="http://www.w3.org/2000/svg"
     >

@@ -7,12 +7,10 @@ import InstagramIcon from "../../../images/icons/InstagramIcon";
 import LinkedInIcon from "../../../images/icons/LinkedInIcon";
 import FbIcon from "../../../images/icons/FbIcon";
 import RedditIcon from "../../../images/icons/RedditIcon";
-// Styles
-import "./SocialButtons.css";
 
 function SocialButtons() {
   return (
-    <div className="social-buttons__wrapper">
+    <div className="m-elements__buttons">
       <Icon Component={TwitterIcon} url="https://twitter.com/guandjoy/" />
       <Icon
         Component={InstagramIcon}
