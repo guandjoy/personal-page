@@ -2,6 +2,7 @@ import React from "react";
 import SocialButtons from "./SocialButtons/SocialButtons";
 import Video from "./Video";
 import Logo from "./Logo";
+import ListeningStatus from "./ListeningStatus/ListeningStatus";
 // Styles
 import "./Hero.css";
 
@@ -18,6 +19,7 @@ function Hero() {
       </div>
       <div className="m-video__wrapper">
         <Video />
+        <ListeningStatus />
       </div>
     </div>
   );
