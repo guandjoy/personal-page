@@ -126,6 +126,7 @@ body {
   height: 66.66%;
   top: 50%;
   left: 50%;
+  -webkit-mask-box-image: url(https://yurko-personal-page.s3.eu-central-1.amazonaws.com/video-mask.svg);
   transform: translate(-50%, -50%);
 }
 
