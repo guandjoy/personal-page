@@ -8,7 +8,7 @@ function Video(props) {
   return (
     <video autoPlay muted loop id="hero-video">
       <source
-        src="http://yurko-personal-page.s3.eu-central-1.amazonaws.com/HeroVideo.mp4"
+        src="https://yurko-personal-page.s3.eu-central-1.amazonaws.com/HeroVideo-FullHD-4-bitrate.mp4"
         type="video/mp4"
       />
       Sorry, your browser doesn't support embedded videos.
