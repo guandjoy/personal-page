@@ -1,20 +1,6 @@
 import React, { useEffect } from "react";
-import { useStaticQuery, graphql } from "gatsby";
 
 function Video(props) {
-  const data = useStaticQuery(graphql`
-    query MyQuery {
-      allS3Asset {
-        edges {
-          node {
-            id
-            url
-          }
-        }
-      }
-    }
-  `);
-
   // useEffect(() => {
   //   document.getElementById("hero-video").play();
   // }, []);
