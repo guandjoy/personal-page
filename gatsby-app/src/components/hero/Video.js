@@ -7,7 +7,7 @@ function Video(props) {
 
   return (
     <video
-      onLoadedData={() => props.setVideoIsReady(true)}
+      onPlaying={() => props.setVideoIsReady(true)}
       autoPlay
       muted
       loop
