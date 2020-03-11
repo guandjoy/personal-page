@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Developer & Designer`,
+    title: `Yurko Turskiy`,
     siteUrl: `https://yurko.gq/`,
-    description: `into Visual Arts, Python, ReactJS, and GraphQL.`,
+    description: `Web Developer & Designer`,
     author: `@guandjoy`
   },
   plugins: [
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Yurko Turskiy personal page`,
+        name: `Yurko Turskiy. Developer & Designer`,
         short_name: `Yurko's page`,
         start_url: `/`,
         background_color: `black`,
@@ -58,7 +58,7 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://www.yurko.gq",
-        policy: [{ userAgent: "*", disallow: "/" }]
+        policy: [{ userAgent: "*", allow: "/" }]
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
