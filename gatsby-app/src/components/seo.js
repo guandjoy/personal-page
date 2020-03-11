@@ -24,6 +24,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
 
               {
+                property: `og:url`,
+                content: `https://yurko.gq/`
+              },
+              {
                 property: `og:title`,
                 content: title
               },
@@ -40,8 +44,24 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/og-1200x630.png`
               },
               {
+                property: `og:image:url`,
+                content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/og-1200x630.png`
+              },
+              {
+                property: `og:image:secure_url`,
+                content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/og-1200x630.png`
+              },
+              {
+                property: `og:image:type`,
+                content: `image/png`
+              },
+              {
+                property: `fb:app_id`,
+                content: `642708319634864`
+              },
+              {
                 name: `twitter:card`,
-                content: `summary`
+                content: `summary_large_image`
               },
               {
                 name: `twitter:creator`,
