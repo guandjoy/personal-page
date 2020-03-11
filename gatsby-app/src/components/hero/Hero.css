@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  z-index: 2;
+  z-index: 4;
   /* background-color: blue; */
   /* outline: 1px solid green; */
 }
@@ -124,9 +124,20 @@ body {
 
 #hero-video {
   position: absolute;
+  z-index: 2;
   height: 66.66%;
   top: 50%;
   left: 50%;
+  -webkit-mask-box-image: url(https://yurko-personal-page.s3.eu-central-1.amazonaws.com/video-mask.svg);
+  transform: translate(-50%, -50%);
+}
+
+.m-video__first-frame-sole {
+  position: absolute;
+  height: 66.6%;
+  top: 50%;
+  left: 50%;
+  width: auto;
   -webkit-mask-box-image: url(https://yurko-personal-page.s3.eu-central-1.amazonaws.com/video-mask.svg);
   transform: translate(-50%, -50%);
 }
