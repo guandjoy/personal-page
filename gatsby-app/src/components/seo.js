@@ -22,6 +22,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `description`,
                 content: metaDescription
               },
+
               {
                 property: `og:title`,
                 content: title
@@ -33,6 +34,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 property: `og:type`,
                 content: `website`
+              },
+              {
+                property: `og:image`,
+                content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/og-1200x630.png`
               },
               {
                 name: `twitter:card`,
@@ -49,6 +54,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:description`,
                 content: metaDescription
+              },
+              {
+                name: `twitter:image:src`,
+                content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/twitter-1200x1200.png`
               }
             ].concat(meta)}
           />
