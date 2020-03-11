@@ -25,7 +25,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 
               {
                 property: `og:url`,
-                content: `https://yurko.gq/`
+                content: `https://yurko.netlify.com/`
               },
               {
                 property: `og:title`,
