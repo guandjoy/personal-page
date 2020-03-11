@@ -8,6 +8,7 @@ body {
   /* width: 100vw; */
   top: 0;
   background: linear-gradient(#fe915b 50%, #ffca86 50%);
+  transition: opacity 0.5s;
 }
 
 .m-elements {
