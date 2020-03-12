@@ -7,11 +7,12 @@ function FirstFrameSole({ setSoleIsLoaded, soleIsLoaded }) {
 
   useEffect(() => {
     // Check if sole is loaded. Method for SSR
-    soleRef.current.complete
+    const soleElement = soleRef.current;
+    soleElement.complete
       ? onLoad()
-      : soleRef.current.addEventListener("load", onLoad);
+      : soleElement.addEventListener("load", onLoad);
     return () => {
-      soleRef.current.removeEventListener("load", onLoad);
+      soleElement.removeEventListener("load", onLoad);
     };
   }, []);
 
