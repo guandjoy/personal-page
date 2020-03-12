@@ -3,10 +3,10 @@ import Icon from "./Icon";
 // Social SVG Icons
 import TwitterIcon from "../../../images/icons/TwitterIcon";
 import GitHubIcon from "../../../images/icons/GitHubIcon";
-import InstagramIcon from "../../../images/icons/InstagramIcon";
-import LinkedInIcon from "../../../images/icons/LinkedInIcon";
-import FbIcon from "../../../images/icons/FbIcon";
-import RedditIcon from "../../../images/icons/RedditIcon";
+// import InstagramIcon from "../../../images/icons/InstagramIcon";
+// import LinkedInIcon from "../../../images/icons/LinkedInIcon";
+// import FbIcon from "../../../images/icons/FbIcon";
+// import RedditIcon from "../../../images/icons/RedditIcon";
 import DribbbleIcon from "../../../images/icons/DribbbleIcon";
 
 function SocialButtons() {

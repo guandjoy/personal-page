@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import React, { useState } from "react";
 import SocialButtons from "./SocialButtons/SocialButtons";
 import Video from "./Video";
 import Logo from "./Logo";
