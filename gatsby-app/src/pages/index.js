@@ -7,7 +7,7 @@ import Hero from "../components/hero/Hero";
 
 const IndexPage = () => (
   <div>
-    <SEO title="Yurko Turskiy" />
+    <SEO title="Yurko's Homepage" />
     <Hero />
   </div>
 );
