@@ -1,8 +1,12 @@
+require("dotenv").config({
+  path: `.env.production`
+});
+
 module.exports = {
   siteMetadata: {
-    title: `Developer & Designer`,
+    title: `Yurko Turskiy`,
     siteUrl: `https://yurko.gq/`,
-    description: `into Visual Arts, Python, ReactJS, and GraphQL.`,
+    description: `Web Developer & Designer`,
     author: `@guandjoy`
   },
   plugins: [
@@ -20,6 +24,10 @@ module.exports = {
             family: "Roboto",
             variants: ["100", "300", "700"],
             subsets: ["latin"]
+          },
+          {
+            family: "Rubik",
+            variants: ["300", "400", "500", "700", "900"]
           }
         ]
       }
@@ -37,20 +45,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Yurko Turskiy personal page`,
+        name: `Yurko Turskiy. Developer & Designer`,
         short_name: `Yurko's page`,
         start_url: `/`,
         background_color: `black`,
         theme_color: `black`,
         display: `minimal-ui`,
-        icon: `src/images/logo.svg` // This path is relative to the root of the site.
+        icon: `src/images/favicon.svg` // This path is relative to the root of the site.
       }
     },
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://www.yurko.gq",
-        policy: [{ userAgent: "*", disallow: "/" }]
+        policy: [{ userAgent: "*", allow: "/" }]
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

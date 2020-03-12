@@ -22,6 +22,11 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `description`,
                 content: metaDescription
               },
+
+              {
+                property: `og:url`,
+                content: `https://yurko.netlify.com/`
+              },
               {
                 property: `og:title`,
                 content: title
@@ -35,8 +40,28 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: `website`
               },
               {
+                property: `og:image`,
+                content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/og-1200x630.png`
+              },
+              {
+                property: `og:image:url`,
+                content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/og-1200x630.png`
+              },
+              {
+                property: `og:image:secure_url`,
+                content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/og-1200x630.png`
+              },
+              {
+                property: `og:image:type`,
+                content: `image/png`
+              },
+              {
+                property: `fb:app_id`,
+                content: `642708319634864`
+              },
+              {
                 name: `twitter:card`,
-                content: `summary`
+                content: `summary_large_image`
               },
               {
                 name: `twitter:creator`,
@@ -49,6 +74,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:description`,
                 content: metaDescription
+              },
+              {
+                name: `twitter:image:src`,
+                content: `https://yurko-personal-page.s3.eu-central-1.amazonaws.com/twitter-1200x1200.png`
               }
             ].concat(meta)}
           />
