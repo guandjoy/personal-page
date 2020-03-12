@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Yurko Turskiy. Web Developer & Designer`,
+    title: `Yurko Turskiy – Web Developer & Designer`,
     siteUrl: `https://yurko.gq/`,
-    description: `Web Developer & Designer`,
+    description: `Designer who code. Into JAMstack, ReactJS, GraphQL, SVG, etc.`,
     author: `@guandjoy`
   },
   plugins: [
