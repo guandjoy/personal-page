@@ -18,6 +18,7 @@ function FirstFrameSole({ setSoleIsLoaded, soleIsLoaded }) {
   return (
     <img
       ref={soleRef}
+      alt="Dancing spaceman character and alien snake"
       src="https://yurko-personal-page.s3.eu-central-1.amazonaws.com/FirstFrame.jpg"
       className="m-video__first-frame-sole"
     />
