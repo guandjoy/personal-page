@@ -3,7 +3,7 @@ import React, { useEffect, useCallback, useRef } from "react";
 function FirstFrameSole({ setSoleIsLoaded, soleIsLoaded }) {
   const soleRef = useRef(null);
 
-  const onLoad = useCallback(() => setSoleIsLoaded(true), []);
+  const onLoad = useCallback(() => setSoleIsLoaded(true), [setSoleIsLoaded]);
 
   useEffect(() => {
     // Check if sole is loaded. Method for SSR
@@ -14,7 +14,7 @@ function FirstFrameSole({ setSoleIsLoaded, soleIsLoaded }) {
     return () => {
       soleElement.removeEventListener("load", onLoad);
     };
-  }, []);
+  }, [onLoad]);
 
   return (
     <img
