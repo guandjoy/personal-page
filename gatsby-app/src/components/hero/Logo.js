@@ -7,9 +7,8 @@ const Logo = props => (
       viewBox="0 0 88 88"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M32 36H10V58H32V36Z" />
-      <path d="M54 58H32V80H54V58Z" />
-      <path d="M63.1999 36L52.1999 25.2L67.9999 9.19998L67.3999 8.59998L51.5999 24.4L33.7999 6.59998L18.2 22.2L53.9999 58H75.9999V36H63.1999Z" />
+      <path d="M11 36h22v22H11zM33 58h22v22H33z" />
+      <path d="M64.1 36L53.3 25.2 69.2 9.4l-.9-.9-15.8 15.9L34.8 6.7 19.2 22.2 55 58h22V36z" />
     </svg>
     <span className="a-logo__label">Yurko Turskiy</span>
   </div>
