@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Yurko Turskiy. Web Developer & Designer`,
     siteUrl: `https://yurko.gq/`,
-    description: `Is there web on Mars?`,
+    description: `Web Developer & Designer`,
     author: `@guandjoy`
   },
   plugins: [
