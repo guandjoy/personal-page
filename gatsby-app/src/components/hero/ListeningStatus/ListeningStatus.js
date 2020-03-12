@@ -8,7 +8,7 @@ function ListeningStatus(props) {
       <a
         href="https://youtu.be/L_u97PqWX6g?t=44"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         N.E.R.D & Rihanna – Lemon
       </a>
