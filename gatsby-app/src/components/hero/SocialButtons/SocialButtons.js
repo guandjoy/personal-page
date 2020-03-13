@@ -3,8 +3,8 @@ import Icon from "./Icon";
 // Social SVG Icons
 import TwitterIcon from "../../../images/icons/TwitterIcon";
 import GitHubIcon from "../../../images/icons/GitHubIcon";
-// import LinkedInIcon from "../../../images/icons/LinkedInIcon";
 import InstagramIcon from "../../../images/icons/InstagramIcon";
+import LinkedInSquareIcon from "../../../images/icons/LinkedInSquareIcon";
 // import FbIcon from "../../../images/icons/FbIcon";
 // import RedditIcon from "../../../images/icons/RedditIcon";
 import DribbbleIcon from "../../../images/icons/DribbbleIcon";
@@ -18,6 +18,11 @@ function SocialButtons() {
       <Icon
         Component={InstagramIcon}
         url="https://instagram.com/yurko.turskiy/"
+      />
+      <Icon
+        Component={LinkedInSquareIcon}
+        id="linkedin-icon"
+        url="https://www.linkedin.com/in/yurko-turkiy/"
       />
       {/* <Icon */}
       {/*   Component={FbIcon} */}
