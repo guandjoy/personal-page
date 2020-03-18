@@ -1,0 +1,81 @@
+import { themes } from 'mdx-deck'
+import myTheme from "./theme"
+import Logo from "./components/Logo"
+import { Header } from "mdx-deck"
+import BroskoLogoSVG from "./components/BroskoLogoSVG"
+import BroskoLogoGridSVG from "./components/BroskoLogoGridSVG"
+import Chapter from "./components/Chapter"
+import { Image, AspectImage, AspectRatio, Card, Checkbox, Box, Label, Grid, Message, Heading } from 'theme-ui'
+import CoverSlide from "./components/CoverSlide"
+
+
+export const theme = themes.dark
+
+<Header>Yurko Turskiy – Web Developer & Designer</Header>
+
+<CoverSlide/>
+
+---
+
+<Heading>Brosko – Online Magazine. Startup.</Heading>
+
+Year 2012 📍 Kyiv, Ukraine.
+
+---
+
+<Box
+  p={1}
+  sx={{
+    width: "80%",
+    maxWidth: "840px"
+  }}
+  color='white'
+  bg='black'>
+  The main idea during creation of the logotype was to combine traditions of ancient cyrillic letters with modern serif typeface.
+</Box>
+
+---
+
+<img style={{ width: '96%', maxWidth: "840px"}} src="https://drive.google.com/uc?id=10iTBcwwXZo9yLSnsmAC8APdYkPdGU3PS" />
+
+---
+
+<img style={{ width: '96%', maxWidth: "291px"}} src="https://drive.google.com/uc?id=1X9vuJRkf4aMIwDnnIaQFFSYXJM6hP_tO" />
+
+---
+
+<BroskoLogoSVG/>
+
+---
+
+<Box
+  p={1}
+  sx={{
+    width: ["100%", "80%", "80%"],
+    maxWidth: "840px"
+  }}
+  color='white'
+  bg='black'>
+<BroskoLogoGridSVG/>
+</Box>
+
+---
+
+
+
+<Grid
+  gap={2}
+  columns={[2, '1fr 2fr']}>
+  <Box bg='primary'>1</Box>
+  <Box bg='muted'>Brand</Box>
+  <Box bg='primary'>1</Box>
+  <Box bg='muted'>Website</Box>
+  <Box bg='primary'>1</Box>
+  <Box bg='muted'>Website</Box>
+</Grid>
+
+
+---
+
+## The End
+
