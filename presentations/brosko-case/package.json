@@ -6,6 +6,8 @@
   "scripts": {
     "start": "mdx-deck brosko.mdx",
     "build": "mdx-deck build brosko.mdx",
+    "tusostart": "mdx-deck tuso.mdx",
+    "tusobuild": "mdx-deck build tuso.mdx",
     "help": "mdx-deck"
   },
   "author": "guandjoy",
