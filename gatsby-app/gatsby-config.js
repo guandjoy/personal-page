@@ -36,8 +36,8 @@ module.exports = {
         defaultDataLayer: { platform: "gatsby" },
 
         // Specify optional GTM environment details.
-        gtmAuth: "oon19AbnWIFm-rh2RFHJFQ",
-        gtmPreview: "env-3"
+        gtmAuth: "Qw8u20CO2fmMYOKFWjvOOA",
+        gtmPreview: "env-1"
         // dataLayerName: "demoDataLayer"
       }
     },
