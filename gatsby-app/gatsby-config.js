@@ -22,9 +22,23 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        trackingId: "UA-143621800-1"
+        id: "GTM-MKVCSPN",
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: true,
+
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
+
+        // Specify optional GTM environment details.
+        gtmAuth: "oon19AbnWIFm-rh2RFHJFQ",
+        gtmPreview: "env-3"
+        // dataLayerName: "demoDataLayer"
       }
     },
     {
