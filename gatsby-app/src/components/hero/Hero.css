@@ -187,7 +187,7 @@
   z-index: 4;
   /* top: 0; */
   right: 0;
-  bottom: 16%;
+  bottom: 16.8%;
   left: 0;
   margin: 0 auto 0 auto;
   display: flex;
@@ -196,29 +196,33 @@
   width: 168px;
 }
 
+.m-listening-status__link:hover {
+  color: #6c5443;
+}
+
+.m-listening-status__link:hover > .m-listening-status__icon {
+  stroke: #6c5443;
+}
+
 .m-listening-status a {
+  display: flex;
+  align-items: center;
   color: #c49869;
   font-style: normal;
   font-weight: bold;
   font-size: 10px;
   line-height: 12px;
+  vertical-align: middle;
   /* identical to box height */
 
   text-align: center;
   margin: 8;
 }
 
-.m-listening-status a:hover {
-  color: #6c5443;
-}
-
 .m-listening-status__icon {
-  margin: 6px 8px 8px 8px;
-  width: 28px;
-}
-
-.m-listening-status a:hover > .m-listening-status__icon {
-  color: #6c5443;
+  stroke: #c49869;
+  margin: 0px 8px 2px 8px;
+  width: 18px;
 }
 
 @media only screen and (max-height: 720px) and (orientation: landscape) {

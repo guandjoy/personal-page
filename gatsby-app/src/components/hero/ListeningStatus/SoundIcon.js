@@ -9,7 +9,6 @@ export default function App(props) {
     <svg
       viewBox="0 0 24 24"
       className={props.className}
-      stroke={color}
       strokeWidth={strokeWidth}
     >
       <path d="M4 10 L 4 14 Z">
