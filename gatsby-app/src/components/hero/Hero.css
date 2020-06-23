@@ -193,7 +193,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 168px;
+  width: 170px;
 }
 
 .m-listening-status__link:hover {
@@ -210,7 +210,7 @@
   color: #c49869;
   font-style: normal;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 12px;
   vertical-align: middle;
   /* identical to box height */
